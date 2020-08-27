@@ -5,6 +5,7 @@ while row < src.count do
   while index < src[row].count do
     if src[row][index].even?
     p src[row][index]
+    end
     index += 1
   end
   row += 1
